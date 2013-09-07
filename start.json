@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 3435,
+    "host": "./"
+  },
+  "compile": {
+    "jade": {
+      "input": "./test/jade/*.jade",
+      "output": "./test/",
+      "pretty": true
+    },
+    "stylus": {
+      "input": "./test/stylus/*.styl",
+      "output": "./test/",
+      "compress": true
+    }
+  },
+  "liverefresh": "./"
+}

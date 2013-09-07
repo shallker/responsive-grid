@@ -1,0 +1,27 @@
+@import vars
+@import mixins
+
+.row
+  &:before, &:after
+    display table
+    content " "
+    line-height 0
+
+  &:after
+    clear both
+
+  >*
+    float left
+    display block
+    min-height 1px
+    margin-left 2.564102564102564%
+    *margin-left 2.5109110747408616%
+    box-sizing border-box
+
+    &:first-child
+      margin-left 0
+
+  >.centered
+    margin-left auto
+    margin-right auto
+    float none
