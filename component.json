@@ -1,0 +1,13 @@
+{
+  "name": "responsive-grid",
+  "repo": "shallker/responsive-grid",
+  "description": "A responsive grid system, written in Stylus, inspired by Bootstrap fluid grid.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "default.css"
+  ]
+}
