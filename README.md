@@ -4,10 +4,17 @@ responsive-grid
 A responsive grid system, written in Stylus, inspired by Bootstrap fluid grid.
 
 
+## Install a default configured version
+
+  Install with [component(1)](http://component.io):
+
+    $ component install shallker/responsive-grid
+
+
 ## Quick Start
 Get a copy of responsive-grid, import it and generate some semantice grids
 ```stylus
-@import 'responsive-grid/index'
+@import 'responsive-grid/stylus/index'
 
 /* Default grid, for the browsers that don't support media query */
 responsive-grid('desktop')
@@ -38,6 +45,7 @@ Start using those grids in html
   </div>
 </div>
 ```
+
 
 ## Example
 http://shallker.github.io/responsive-grid/test
